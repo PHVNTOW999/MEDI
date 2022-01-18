@@ -22,8 +22,6 @@ function Sliding(slide, sliderTrack) {
     sliderTrack_3.classList.remove("sliderTrack__item-active")
 
     sliderTrack.classList.add("sliderTrack__item-active")
-
-    console.log(slide, sliderTrack)
 }
 
 console.log("JS working")
