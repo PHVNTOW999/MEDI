@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./CSS/Style.css" />
     <!-- Animate css  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="icon" href="./Logo_Icon.svg" />
     <title>MEDI</title>
 </head>
 
@@ -137,19 +138,23 @@
                     </div>
                 </div>
                 <div class="sliderTrack">
-                    <div id="sliderTrack_1" class="sliderTrack__item sliderTrack__item-active">
+                    <div onclick="Sliding(slide_1, sliderTrack_1)" id="sliderTrack_1"
+                        class="sliderTrack__item sliderTrack__item-active">
                         Комплексные процедуры
                     </div>
-                    <div id="sliderTrack_2" class="sliderTrack__item" style="background: #4fbfa5">
+                    <div onclick="Sliding(slide_2, sliderTrack_2)" id="sliderTrack_2" class="sliderTrack__item"
+                        style="background: #4fbfa5">
                         Центр обучения
                     </div>
-                    <div id="sliderTrack_3" class="sliderTrack__item">VIP клиентам</div>
+                    <div onclick="Sliding(slide_3, sliderTrack_3)" id="sliderTrack_3" class="sliderTrack__item">
+                        VIP клиентам
+                    </div>
                 </div>
             </div>
         </div>
     </header>
-    <div class="wrapper">
-        <section class="section">
+    <section class="section-1">
+        <div class="wrapper">
             <div class="innovations">
                 <div class="innovations__title">Инновации</div>
                 <h2 class="innovations__subtitle">
@@ -167,14 +172,97 @@
             </div>
             <div class="achievements">
                 <div class="achievements__title">Эстетика красоты</div>
-                <div class="achievements__text"><span>78</span><p>Современных центра <br> в странах СНГ</p></div>
-                <div class="achievements__text"><span>78</span><p>Современных центра <br> в странах СНГ</p></div>
-                <div class="achievements__slogan"><span>20</span><h1>Уникальных патентов <br> в области косметологии</h1></div>
-                <img class="achievements__img" src="./IMG/achievements__img.png">
-                <div class="achievements__text"><span>78</span><p>Современных центра <br> в странах СНГ</p></div>
+                <div class="achievements__text">
+                    <span>78</span>
+                    <p>
+                        Современных центра <br />
+                        в странах СНГ
+                    </p>
+                </div>
+                <div class="achievements__text">
+                    <span>78</span>
+                    <p>
+                        Современных центра <br />
+                        в странах СНГ
+                    </p>
+                </div>
+                <div class="achievements__slogan">
+                    <span>20</span>
+                    <h1>
+                        Уникальных патентов <br />
+                        в области косметологии
+                    </h1>
+                </div>
+                <img class="achievements__img" src="./IMG/achievements__img.png" />
+                <div class="achievements__text">
+                    <span>78</span>
+                    <p>
+                        Современных центра <br />
+                        в странах СНГ
+                    </p>
+                </div>
             </div>
-        </section>
-    </div>
+        </div>
+    </section>
+    <section class="section-2">
+        <div class="wrapper">
+            <div class="news">
+                <div class="news__title">Новости</div>
+                <p class="news__text-active">
+                    Почему рекомендуется посещать <br />
+                    профессионального косметолога. Мнение
+                    <br />
+                    специалистов центра
+                </p>
+                <p class="news__text">
+                    Стандартизация деятельности клиник в <br />
+                    соответствии с ISO 9001:2015.
+                </p>
+                <p class="news__text">
+                    Индивидуальный подход к каждому пациенту и <br />
+                    подбор оптимальных косметологических методик.
+                </p>
+            </div>
+            <div class="desc">
+                <div class="desc__wrap">
+                    <div class="desc__title">
+                        Почему рекомендуется посещать профессионального <br />
+                        косметолога. Мнение специалистов центра
+                    </div>
+                    <div class="desc__text">
+                        <img src="./IMG/li.svg" alt="" /><p>
+                        Процедуры аппаратной косметологии на оборудовании экспертного
+                        класса от ведущих <br />
+                        мировых производителей могут проводиться в любом возрасте и решать
+                        широкий спектр <br />
+                        проблем: возрастные изменения, покраснения, акне и купероз, потеря
+                        тонуса и упругости <br />
+                        кожи, отечность, целлюлит и т. п.</p>
+                    </div>
+                    <div class="desc__text">
+                        <img src="./IMG/li.svg" alt="" /><p>С помощью инъекционных
+                        методик мы можем разгладить морщины, провести объёмное
+                        <br />
+                        моделирование, увлажнить кожу, ввести активные вещества в
+                        поверхностные и средние слои <br />
+                        кожи, запустить процессы омоложения.</p>
+                    </div>
+                    <div class="desc__text">
+                        <img src="./IMG/li.svg" alt="" /><p>Лазерное и фотоомоложение
+                        помогут запустить процесс синтеза собственного коллагена, <br />
+                        улучшить светооптические свойства кожи, а также получить
+                        максимальный эффект подтяжки <br />
+                        лица без уколов и длительного восстановительного периода.</p>
+                    </div>
+                    <div class="desc__text">
+                        <img src="./IMG/li.svg" alt="" /><p>Курс процедур лазерной
+                        эпиляции поможет навсегда избавиться от проблемы <br />
+                        нежелательных волос.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <script src="./JS/Script.js"></script>
 </body>
 
