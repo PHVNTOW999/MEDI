@@ -82,10 +82,10 @@
                         </a>
                     </div>
                     <div class="slide__arrows">
-                        <img id="arrowLeft" onclick="Sliding(slide_3, sliderTrack_3)" src="./IMG/Arrow__left.svg"
-                            alt="" />
-                        <img id="arrowRight" onclick="Sliding(slide_2, sliderTrack_2)" src="./IMG/Arrow__right.svg"
-                            alt="" />
+                        <img class="btn__arrow" id="arrowLeft" onclick="Sliding(slide_3, sliderTrack_3)"
+                            src="./IMG/Arrow__left.svg" alt="" />
+                        <img class="btn__arrow" id="arrowRight" onclick="Sliding(slide_2, sliderTrack_2)"
+                            src="./IMG/Arrow__right.svg" alt="" />
                     </div>
                     <div class="slide__img">
                         <img src="./IMG/Slide__img.png" alt="" />
@@ -105,10 +105,10 @@
                         </a>
                     </div>
                     <div class="slide__arrows">
-                        <img id="arrowLeft" onclick="Sliding(slide_1, sliderTrack_1)" src="./IMG/Arrow__left.svg"
-                            alt="" />
-                        <img id="arrowRight" onclick="Sliding(slide_3, sliderTrack_3)" src="./IMG/Arrow__right.svg"
-                            alt="" />
+                        <img class="btn__arrow" id="arrowLeft" onclick="Sliding(slide_1, sliderTrack_1)"
+                            src="./IMG/Arrow__left.svg" alt="" />
+                        <img class="btn__arrow" id="arrowRight" onclick="Sliding(slide_3, sliderTrack_3)"
+                            src="./IMG/Arrow__right.svg" alt="" />
                     </div>
                     <div class="slide__img">
                         <img src="./IMG/Slide__img.png" alt="" />
@@ -128,10 +128,10 @@
                         </a>
                     </div>
                     <div class="slide__arrows">
-                        <img id="arrowLeft" onclick="Sliding(slide_2, sliderTrack_2)" src="./IMG/Arrow__left.svg"
-                            alt="" />
-                        <img id="arrowRight" onclick="Sliding(slide_1, sliderTrack_1)" src="./IMG/Arrow__right.svg"
-                            alt="" />
+                        <img class="btn__arrow" id="arrowLeft" onclick="Sliding(slide_2, sliderTrack_2)"
+                            src="./IMG/Arrow__left.svg" alt="" />
+                        <img class="btn__arrow" id="arrowRight" onclick="Sliding(slide_1, sliderTrack_1)"
+                            src="./IMG/Arrow__right.svg" alt="" />
                     </div>
                     <div class="slide__img">
                         <img src="./IMG/Slide__img.png" alt="" />
@@ -164,7 +164,7 @@
                 </h2>
                 <div class="innovations__btn">
                     <a href="#">
-                        <img id="arrowRight" src="./IMG/Arrow__right.svg" alt="" />
+                        <img class="btn__arrow" id="arrowRight" src="./IMG/Arrow__right.svg" alt="" />
                         <p>Подробнее</p>
                     </a>
                 </div>
@@ -230,39 +230,90 @@
                         косметолога. Мнение специалистов центра
                     </div>
                     <div class="desc__text">
-                        <img src="./IMG/li.svg" alt="" /><p>
-                        Процедуры аппаратной косметологии на оборудовании экспертного
-                        класса от ведущих <br />
-                        мировых производителей могут проводиться в любом возрасте и решать
-                        широкий спектр <br />
-                        проблем: возрастные изменения, покраснения, акне и купероз, потеря
-                        тонуса и упругости <br />
-                        кожи, отечность, целлюлит и т. п.</p>
+                        <img src="./IMG/li.svg" alt="" />
+                        <p>
+                            Процедуры аппаратной косметологии на оборудовании экспертного
+                            класса от ведущих <br />
+                            мировых производителей могут проводиться в любом возрасте и решать
+                            широкий спектр <br />
+                            проблем: возрастные изменения, покраснения, акне и купероз, потеря
+                            тонуса и упругости <br />
+                            кожи, отечность, целлюлит и т. п.</p>
                     </div>
                     <div class="desc__text">
-                        <img src="./IMG/li.svg" alt="" /><p>С помощью инъекционных
-                        методик мы можем разгладить морщины, провести объёмное
-                        <br />
-                        моделирование, увлажнить кожу, ввести активные вещества в
-                        поверхностные и средние слои <br />
-                        кожи, запустить процессы омоложения.</p>
+                        <img src="./IMG/li.svg" alt="" />
+                        <p>С помощью инъекционных
+                            методик мы можем разгладить морщины, провести объёмное
+                            <br />
+                            моделирование, увлажнить кожу, ввести активные вещества в
+                            поверхностные и средние слои <br />
+                            кожи, запустить процессы омоложения.</p>
                     </div>
                     <div class="desc__text">
-                        <img src="./IMG/li.svg" alt="" /><p>Лазерное и фотоомоложение
-                        помогут запустить процесс синтеза собственного коллагена, <br />
-                        улучшить светооптические свойства кожи, а также получить
-                        максимальный эффект подтяжки <br />
-                        лица без уколов и длительного восстановительного периода.</p>
+                        <img src="./IMG/li.svg" alt="" />
+                        <p>Лазерное и фотоомоложение
+                            помогут запустить процесс синтеза собственного коллагена, <br />
+                            улучшить светооптические свойства кожи, а также получить
+                            максимальный эффект подтяжки <br />
+                            лица без уколов и длительного восстановительного периода.</p>
                     </div>
                     <div class="desc__text">
-                        <img src="./IMG/li.svg" alt="" /><p>Курс процедур лазерной
-                        эпиляции поможет навсегда избавиться от проблемы <br />
-                        нежелательных волос.</p>
+                        <img src="./IMG/li.svg" alt="" />
+                        <p>Курс процедур лазерной
+                            эпиляции поможет навсегда избавиться от проблемы <br />
+                            нежелательных волос.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    <div class="offers">
+        <div class="wrapper">
+            <h1 class="offers__title">Актуальные спецпредложения</h1>
+            <div class="offers__row">
+                <div class="row__item">
+                    <div class="row__item__title">
+                        <p>Косметология</p>
+                    </div>
+                    <img class="row__item__img" src="./IMG/row__item-1.png" alt="">
+                    <div class="row__item__text">
+                        <p>Лазерное и <br> фотоомоложение</p>
+                        <img class="btn__arrow" src="./IMG/Arrow__right.svg" alt="">
+                    </div>
+                </div>
+                <div class="row__item">
+                    <div class="row__item__title">
+                        <p>Косметология</p>
+                    </div>
+                    <img class="row__item__img" src="./IMG/row__item-2.png" alt="">
+                    <div class="row__item__text">
+                        <p>Лазерное и <br> фотоомоложение</p>
+                        <img class="btn__arrow" src="./IMG/Arrow__right.svg" alt="">
+                    </div>
+                </div>
+                <div class="row__item">
+                    <div class="row__item__title">
+                        <p>Косметология</p>
+                    </div>
+                    <img class="row__item__img" src="./IMG/row__item-3.png" alt="">
+                    <div class="row__item__text">
+                        <p>Лазерное и <br> фотоомоложение</p>
+                        <img class="btn__arrow" src="./IMG/Arrow__right.svg" alt="">
+                    </div>
+                </div>
+                <div class="row__item">
+                    <div class="row__item__title">
+                        <p>Косметология</p>
+                    </div>
+                    <img class="row__item__img" src="./IMG/row__item-4.png" alt="">
+                    <div class="row__item__text">
+                        <p>Лазерное и <br> фотоомоложение</p>
+                        <img class="btn__arrow" src="./IMG/Arrow__right.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="./JS/Script.js"></script>
 </body>
 
