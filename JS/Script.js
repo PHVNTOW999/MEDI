@@ -1,3 +1,14 @@
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function () {
+    var currentScrollPos = window.pageYOffset;
+    if (prevScrollpos > currentScrollPos) {
+        document.getElementById("nav").style.top = "0";
+    } else {
+        document.getElementById("nav").style.top = "-92px";
+    }
+    prevScrollpos = currentScrollPos;
+}
+
 let slide_1 = document.querySelector("#slide_1")
 let slide_2 = document.querySelector("#slide_2")
 let slide_3 = document.querySelector("#slide_3")
